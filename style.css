@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 { 
+    color: #2c3e50; 
+    margin-bottom: 10px; 
+} 
+
+p { 
+    margin-bottom: 10px; 
+    color: #34495e;
+} 
+
+.ui { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+
+.row { 
+    display: flex; 
+} 
+
+.cell { 
+    border: none; 
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    text-align: center; 
+    cursor: pointer; 
+    background-color: #ecf0f1; 
+    color: #2c3e50; 
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cell:active { 
+    outline: none; 
+    background-color: #bdc3c7;
+} 
+
+/* 3*3 Grid */
+#b1{ 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b2 { 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b3 { 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b4 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+      
+#b5 { 
+    border: 1px solid gray; 
+} 
+  
+#b6 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b7 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b8 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b9 { 
+    border-top: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+
+/* Reset Button */
+#but { 
+    box-sizing: border-box; 
+    width: 95px; 
+    height: 40px; 
+    border: 1px solid #2980b9; 
+    margin: 10px; 
+    border-radius: 8px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: #3498db; 
+    color: white; 
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+#but:hover {
+    background-color: #2980b9;
+}
+
+/* Player turn space */
+#print { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #2c3e50; 
+    font-size: 20px; 
+} 
+  
+/* Main Container */
+#main { 
+    text-align: center; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+} 
+  
+/* Game Instruction Text */
+#ins { 
+    color: #34495e; 
+}
